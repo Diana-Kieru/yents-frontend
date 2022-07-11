@@ -4,8 +4,7 @@ import styled from 'styled-components';
 
 const Container = styled.div`
     height: 3.75rem;
-    width: 100vw;
-    background-color: blue;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -32,6 +31,8 @@ const Button = styled.button`
   border: none;
   padding: 0.5rem 2rem;
   cursor: pointer;
+  background-color: #f0ffff;
+  color: #053330;
 `;
 
 
