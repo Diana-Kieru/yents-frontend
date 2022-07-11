@@ -23,10 +23,18 @@ const Wrapper = styled.div`
 const MenuItem = styled.div`
   cursor: pointer;
   font-size: 1rem;
+  display:flex;
+  align-items: center;
   margin-right: 1rem;
 `;
 
-const Button = styled.button``;
+const Button = styled.button`
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+`;
+
+
 
 const Navbar = () => {
   return (
@@ -37,6 +45,7 @@ const Navbar = () => {
         <MenuItem> Team </MenuItem>
         <MenuItem> Contact us </MenuItem>
         <MenuItem> <Button>Sign up</Button></MenuItem>
+        
       </Wrapper>
     </Container>
     // <div>
