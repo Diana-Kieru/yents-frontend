@@ -190,6 +190,12 @@ label span{
     }
 }
 
+@media(max-width:768px){
+    input{
+        height:30px;
+    }
+}
+
 @media(max-width:650px){
     .sign-up-container{
         display:flex;
@@ -199,6 +205,10 @@ label span{
 
     .sign-up-text-container{
         display:none;
+    }
+
+    input{
+        height:50px;
     }
 }
 
