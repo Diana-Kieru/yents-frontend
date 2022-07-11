@@ -15,7 +15,7 @@ const SignUpForm = () => {
       <div className="sign-up-form-container">
         <div className="sign-up-form">
           <h1>Sign up</h1>
-          <h3>Register for an account or if you dont have one or   <span>Sign in</span></h3>
+          <h3>Register for an account or if you don't have one or   <span>Sign in</span></h3>
             <form>
                   <input type="text" name="firstname" placeholder="Firstname"/>
                 <input type="text" name="lastname" placeholder="Lastname" />

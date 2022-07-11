@@ -69,6 +69,7 @@
     justify-content:space-around;
     max-width:1000px;
     width:100%;
+    font-family:'Poppins',sans-serif;
 }
 
 form{
@@ -100,17 +101,17 @@ input{
     max-width:850px;
     width:100%;
     height:50px;
-    background-color:var(--lightest-brand-color);
-    border:none;
+    background-color:transparent;
+    border:1px solid var(--brand-color);
     margin:5px 10px;
     padding-left:10px;
     font-size:20px;
     outline:none;
-    color:white;
+    color:var(--brand-color);
 }
 
 input::placeholder{
-    color:white;
+    color:grey;
 }
 
 .terms-container{
@@ -130,15 +131,23 @@ label{
 
 label span{
     color:#0F3524;
+    font-weight:800;
 }
 
 .submit-button{
-    width:100px;
+    width:150px;
     height:50px;
     background-color: #0F3524;
     color:white;
     font-size:20px;
     border:none;
+    transition:.3s ease-in-out;
+}
+
+.submit-button:hover{
+    border:1px solid var(--brand-color);
+    background-color:transparent;
+    color:var(--brand-color);
 }
 
 
