@@ -5,17 +5,20 @@ import styled from 'styled-components';
 const Container = styled.div`
    background-color: #053330;
    color: #f0ffff;
-   height: 100vh
+   
 `;
 
 const Wrapper = styled.div`
    display: flex;
    align-items: center;
    padding: 3.125rem;
+   height: 100vh;
+   
 `;
 
 const Left = styled.div`
     flex: 1;
+    
     
 `;
 
@@ -27,8 +30,9 @@ const Title = styled.h1`
 
 const Description =  styled.p`
   line-height: 1.5;
-  opacity: 0.8;
+  opacity: 0.6;
   margin-bottom: 0.75rem;
+  
 `;
 
 const Button = styled.button`
@@ -39,6 +43,11 @@ const Button = styled.button`
   border: 1px solid white;
   margin-top: 2rem;
   cursor: pointer;
+  &:hover {
+    color: #fff;
+    font-weight:600;
+    
+  }
 `;
 
 
@@ -46,8 +55,15 @@ const Right = styled.div`
     flex: 1
 `;
 
+const ImageContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`;
+
 const Image =  styled.img`
-  height: 80%;
+  max-width: 100%;
+  object-fit: cover;
 `;
 
 const LandingPage = () => {
@@ -71,7 +87,9 @@ const LandingPage = () => {
         <Button>Learn more</Button>
       </Left>
       <Right>
-      
+      <ImageContainer>
+      <Image src='https://o.remove.bg/downloads/22eef7c9-d339-43c5-8ad3-2aa451160cc0/3d-isometric-city-ultra-violet-colors-with-bitcoin-top-skyscraper_1441-1985-removebg-preview.png' />
+      </ImageContainer>
       </Right>
     </Wrapper>
    </Container>

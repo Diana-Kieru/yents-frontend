@@ -8,6 +8,7 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    
 `;
 
 const Wrapper = styled.div`
@@ -16,7 +17,7 @@ const Wrapper = styled.div`
    aligh-items: center;
    justify-content: space-evenly;
    width: 50%;
- 
+   box-sizing: border-box;
 `;
 
 const MenuItem = styled.div`
@@ -25,6 +26,11 @@ const MenuItem = styled.div`
   display:flex;
   align-items: center;
   margin-right: 1rem;
+  &:hover {
+    font-color: #fff;
+    font-weight:600;
+    
+  }
 `;
 
 const Button = styled.button`
@@ -33,6 +39,11 @@ const Button = styled.button`
   cursor: pointer;
   background-color: #f0ffff;
   color: #053330;
+  &:hover {
+    background-color: #fff;
+    font-weight:600;
+    
+  }
 `;
 
 
@@ -49,24 +60,7 @@ const Navbar = () => {
         
       </Wrapper>
     </Container>
-    // <div>
-    //   <Link to='/'>
-    //     <div className="logo__container">
-    //         <img src="" alt="" />
-    //     </div>
-    //   </Link>
-        
-    //     <nav>
-            
-            
-    //     </nav>
-    //     <Link to="/login" style={{textDecoration: "none"}}>
-    //       <button>Log in</button>
-    //     </Link>
-    //     <Link to="/signup" style={{textDecoration: "none"}}>
-    //       <button>Sign up</button>
-    //     </Link>
-    // </div>
+    
   )
 }
 
