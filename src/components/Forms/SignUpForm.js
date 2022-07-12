@@ -9,7 +9,7 @@ const SignUpForm = () => {
         <div className="sign-up-text">
           <h2>The YENTs portal is your gateway to crypto</h2>
           <h2>With your YENT wallet you can buy crypto without the hussle of managing your private keys</h2>
-          <h2>Sign up now to find out how ></h2>
+          <h2>Sign up now to find out how</h2>
         </div>
       </div>
       <div className="sign-up-form-container">
