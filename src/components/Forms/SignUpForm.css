@@ -8,7 +8,7 @@
 }
 
 :root{
-    --brand-color:#14452f;
+    --brand-color:#053330;
     --lightest-brand-color:#123e2ab1;
     --form-font:'Urbanist',sans-serif;
 }
@@ -22,7 +22,7 @@
     max-width:1400px;
     width:100%;
     height:100vh;
-    background-color: #0F3524;
+    background-color:var(--brand-color);
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -130,14 +130,14 @@ label{
 }
 
 label span{
-    color:#0F3524;
+    color:var(--brand-color);
     font-weight:800;
 }
 
 .submit-button{
     width:150px;
     height:50px;
-    background-color: #0F3524;
+    background-color:var(--brand-color);
     color:white;
     font-size:20px;
     border:none;
