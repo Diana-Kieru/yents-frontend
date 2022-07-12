@@ -160,7 +160,7 @@ label span{
 
 }
 
-@media(max-width:1024px){
+@media(max-width:1150px){
     .sign-up-form h3{
         color:#a3a3a3;
         text-align: center;
@@ -176,6 +176,11 @@ label span{
 }
 
 @media(max-width:940px){
+    input{
+        max-width:350px;
+        width:100%;
+    }
+
     .sign-up-text{
         max-width:400px;
         width:100%;
