@@ -56,8 +56,7 @@ const Navbar = () => {
         <MenuItem> Roadmap </MenuItem>
         <MenuItem> Team </MenuItem>
         <MenuItem> Contact us </MenuItem>
-        <MenuItem> <Button>Sign up</Button></MenuItem>
-        
+        <Link to='signup'><Button>Sign up</Button></Link>     
       </Wrapper>
     </Container>
     

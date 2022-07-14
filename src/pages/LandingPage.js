@@ -12,7 +12,7 @@ const Wrapper = styled.div`
    display: flex;
    align-items: center;
    padding: 3.125rem;
-   height: 100vh;
+   height: 75vh;
    
 `;
 
@@ -64,7 +64,10 @@ const ImageContainer = styled.div`
 const Image =  styled.img`
   max-width: 100%;
   object-fit: cover;
+  margin-left: 10px;
 `;
+
+const vector = require ('../components/assets/vector.jpg')
 
 const LandingPage = () => {
   return (
@@ -88,7 +91,7 @@ const LandingPage = () => {
       </Left>
       <Right>
       <ImageContainer>
-      <Image src='https://o.remove.bg/downloads/22eef7c9-d339-43c5-8ad3-2aa451160cc0/3d-isometric-city-ultra-violet-colors-with-bitcoin-top-skyscraper_1441-1985-removebg-preview.png' />
+      <Image src={vector} alt='Logo'/>
       </ImageContainer>
       </Right>
     </Wrapper>

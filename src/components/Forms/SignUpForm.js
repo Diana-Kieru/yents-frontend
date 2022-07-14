@@ -1,5 +1,6 @@
 import React from 'react';
 import './SignUpForm.css'
+import { Link } from 'react-router-dom';
 
 const SignUpForm = () => {
   return (
@@ -15,9 +16,9 @@ const SignUpForm = () => {
       <div className="sign-up-form-container">
         <div className="sign-up-form">
           <h1>Sign up</h1>
-          <h3>Register for an account or if you don't have one or   <span>Sign in</span></h3>
+          <h3>Register for an account or if you don't have one or   <Link to='../login'><span>Sign in</span></Link></h3>
             <form>
-                  <input type="text" name="firstname" placeholder="Firstname"/>
+                <input type="text" name="firstname" placeholder="Firstname"/>
                 <input type="text" name="lastname" placeholder="Lastname" />
                 <input type="email" name="email" placeholder="Email"/>
                 <input type="number" name="number" placeholder="Phone Number"/>
